@@ -1,8 +1,38 @@
-.footer{
-   background-color: #000;
-   &__text{
-      color: #fff;
-      font-size: 40px;
-      font-weight: 500;
+.footer {
+   background: radial-gradient(1518.05% 971.81% at 50% 50%, #0125AA 0%, #00045B 100%), #1D47B2;
+   padding: 30.586px 0 33.414px 0;
+
+   &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__inner {
+      display: flex;
+      gap: 48px;
+      align-items: center;
+   }
+
+   &__copy {
+      color: #F9FAFC;
+      line-height: 137.5%;
+      max-width: 478px;
+   }
+
+   &__social {
+      display: flex;
+      align-items: center;
+      gap: 48px;
+      &-item {
+         a {
+            display: block;
+            font-size: 25px;
+            line-height: 100%;
+         }
+         ._icon-vk {
+            color: #fff;
+         }
+      }
    }
 }

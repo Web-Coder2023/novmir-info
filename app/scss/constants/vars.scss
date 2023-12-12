@@ -1,5 +1,5 @@
 // Ширина ограничивающего контейнера
-$mainContainer: 1200px;
+$mainContainer: 1170px;
 
 // Планшеты, некоторые телефоны в горизонтальном положении
 $tablet:  991.98px;
@@ -11,10 +11,13 @@ $mobile:  767.98px;
 $mobileSmall:  479.98px;
 
 // Цвет фона по умолчанию
-$mainColorBg: #fff;
+$mainColorBg: #E5E5E5;
 
 // Цвет шрифта по умолчанию
-$mainColorFont: #313131;
+$mainColorFont: #515151;
 
 // Размер шрифта по умолчанию
-$fontSizeDefault: 14;
+$fontSizeDefault: 16px;
+
+// Жирность шрифта по умолчанию
+$fontWeightDefault: 400;
